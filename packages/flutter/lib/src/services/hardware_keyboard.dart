@@ -420,7 +420,7 @@ class HardwareKeyboard {
 
   void _assertEventIsRegular(KeyEvent event) {
     assert(() {
-      const String common = 'If this occurs in real application, please report this '
+      const String common = 'If this occurs in a real application, please report this '
         'bug to Flutter. If this occurs in unit tests, please ensure that '
         "simulated events follow Flutter's event model as documented in "
         '`HardwareKeyboard`. This was the event: ';
